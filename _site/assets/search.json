@@ -1,0 +1,54 @@
+
+
+[
+  
+  
+    
+    
+      {
+        "title": "A begginers WebDev experience",
+        "excerpt": "I know here at TOTW we are focused on learning and researching about trees from around the world but this all began as a hobby to learn the skills of web development. As that is the case, I’d like to share a little \nbit about how the website what built, it’s foundations and beginings. Origionally I was planing on building this website with a CSS framework, in particular Bulma CSS. Using the Bulma framework, I was able to create very beautiful, repsonsive desktop and mobile compatible website. The learning curve was steep, as before this I had zero knowledge of HTML and CSS. As I have not\n",
+        "content": "I know here at TOTW we are focused on learning and researching about trees from around the world but this all began as a hobby to learn the skills of web development. As that is the case, I’d like to share a little \nbit about how the website what built, it’s foundations and beginings. Origionally I was planing on building this website with a CSS framework, in particular Bulma CSS. Using the Bulma framework, I was able to create very beautiful, repsonsive desktop and mobile compatible website. The learning curve was steep, as before this I had zero knowledge of HTML and CSS. As I have not\n",
+        "url": "/offtopic/2019/06/16/A-begginers-webdev-experience/"
+      },
+    
+      {
+        "title": "Welcome to Trees of the World",
+        "excerpt": "Welcome to TOTW. My goal for this blog is to research and discover trees from around the world. \nMy goal is to release a series of blog posts weekly that will bring you BIG, small, interesting, or rare trees from around the world. \nI plan to provide you with a breif description of:\n\n\n  Their location.\n  Their prefered habitat.\n  An interesting fact about the tree and/or region.\n  The trees use, whether it be medicinal, construction, or some other resource.\n\n\nJoin me on this adventure, and discover Trees of the world!\n\n_Further Reading Trees of Australia - Wikipedia\n",
+        "content": "Welcome to TOTW. My goal for this blog is to research and discover trees from around the world. \nMy goal is to release a series of blog posts weekly that will bring you BIG, small, interesting, or rare trees from around the world. \nI plan to provide you with a breif description of:\n\n\n  Their location.\n  Their prefered habitat.\n  An interesting fact about the tree and/or region.\n  The trees use, whether it be medicinal, construction, or some other resource.\n\n\nJoin me on this adventure, and discover Trees of the world!\n\n_Further Reading Trees of Australia - Wikipedia\n",
+        "url": "/general/2019/06/16/Welcome-to-Trees-of-the-World/"
+      },
+    
+  
+  
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": "\n",
+    "url": "/categories/"
+  },
+  
+  {
+    "title": "Elements",
+    "excerpt": "A demo of Markdown and HTML includes\n",
+    "content": "Heading 1\n\nHeading 2\n\nHeading 3\n\nHeading 4\n\nHeading 5\n\nHeading 6\n\nA small element\n\nA link\n\nLorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.\n\nDuis aute irure dolor in A link reprehenderit in voluptate velit esse cillum bold text dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt italicised text in culpa qui officia deserunt mollit anim id some code est laborum.\n\n\n  An item\n  An item\n  An item\n  An item\n  An item\n\n\n\n  Item one\n  Item two\n  Item three\n  Item four\n  Item five\n\n\n\n  A simple blockquote\n\n\nSome HTML…\n\n&lt;blockquote cite=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;\n  &lt;p&gt;You planning a vacation, Mr. Sullivan?&lt;/p&gt;\n  &lt;footer&gt;\n    &lt;a href=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;Sunways Security Guard&lt;/a&gt;\n  &lt;/footer&gt;\n&lt;/blockquote&gt;\n\n\n…CSS…\n\nblockquote {\n  text-align: center;\n  font-weight: bold;\n}\nblockquote footer {\n  font-size: .8rem;\n}\n\n\n…and JavaScript\n\nconst blockquote = document.querySelector(\"blockquote\")\nconst bolden = (keyString, string) =&gt;\n  string.replace(new RegExp(keyString, 'g'), '&lt;strong&gt;'+keyString+'&lt;/strong&gt;')\n\nblockquote.innerHTML = bolden(\"Mr. Sullivan\", blockquote.innerHTML)\n\n\nSingle line of code\n\nHTML Includes\n\nContact form\n\n\n  \n    Contact\n    Name: *\n    \n\n    Email Address: *\n    \n\n    Message: *\n    \n\n    \n    \n    * indicates a required field\n\n    \n      \n      \n      \n    \n  \n\n\n\n\nPlease enable JavaScript to use the form.\n\n{% include site-form.html %}\n\n\nDemo map embed\n\n\n\n{% include map.html id=\"XXXXXX\" title=\"Coffee shop map\" %}\n\n\nButton include\n\nA button\n\nA button with icon  twitter\n\n\n{% include button.html text=\"A button\" link=\"https://david.darn.es\" %}\n{% include button.html text=\"A button with icon\" link=\"https://twitter.com/daviddarnes\" icon=\"twitter\" %}\n\n\nIcon include\n\ntwitter\ntwitter\n\n\n{% include icon.html id=\"twitter\" title=\"twitter\" %}\n[{% include icon.html id=\"linkedin\" title=\"twitter\" %}](https://www.linkedin.com/in/daviddarnes)\n\n\nVideo include\n\n\n  \n\n\n{% include video.html id=\"zrkcGL5H3MU\" title=\"Siteleaf tutorial video\" %}\n\n\nImage includes\n\n\n  \n  Image with caption\n\n\n\n  \n  Right aligned image\n\n\n\n  \n  Left aligned image\n\n\n\n  \n  \n\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Image with caption\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Right aligned image\" position=\"right\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Left aligned image\" position=\"left\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/1600/800?image=894\" alt=\"Image with just alt text\" %}\n\n",
+    "url": "/elements/"
+  },
+  
+  {
+    "title": "Welcome to Trees of the World.",
+    "excerpt": "\n",
+    "content": "Welcome to Trees of the World (TOTW). A Blog about.. well.. trees from around the world. Each week, I plan to create a series of posts which outline my research and discovery of new trees from around the world. \nYou may ask yourself why this fool is deciding to make a blog dedicated to trees? Good question, the answer is well.. I don’t really know. This year I decided I wanted to learn a new skill, and well, Web Development and Design is what I chose. What better way to learn about development and design then to create a website on trees? Join me on my journey to educate myself and the wider web on trees, BIG, small, interesting, or unique.\n\nA little about me.\n\nMy name is Josh. Im currently 25 years of age and I am employed fulltime in the Health sector. I reside in Australia in the suburbs of sydney. This website is a little project of mine. I hope you enjoy.\n\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "Search",
+    "excerpt": "Search for a page or post you’re looking for\n",
+    "content": "{% include site-search.html %}\n",
+    "url": "/search/"
+  }
+  
+]
+
